@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<JDepend>
+    <Packages>
+
+        <Package name="com.arolitec.todo.web">
+            <Stats>
+                <TotalClasses>6</TotalClasses>
+                <ConcreteClasses>6</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>0</Ca>
+                <Ce>12</Ce>
+                <A>0</A>
+                <I>1</I>
+                <D>0</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="TaskerHomepage.groovy">
+                    com.arolitec.todo.web.TaskerHomepage
+                </Class>
+                <Class sourceFile="TaskerHomepage.groovy">
+                    com.arolitec.todo.web.TaskerHomepage$__clinit__closure1
+                </Class>
+                <Class sourceFile="TaskerInsert.groovy">
+                    com.arolitec.todo.web.TaskerInsert
+                </Class>
+                <Class sourceFile="TaskerInsert.groovy">
+                    com.arolitec.todo.web.TaskerInsert$__clinit__closure1
+                </Class>
+                <Class sourceFile="TaskerTest.groovy">
+                    com.arolitec.todo.web.TaskerTest
+                </Class>
+                <Class sourceFile="TaskerTest.groovy">
+                    com.arolitec.todo.web.TaskerTest$_theTaskerHomepage_closure1
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>geb</Package>
+                <Package>geb.junit4</Package>
+                <Package>geb.transform.implicitassertions</Package>
+                <Package>groovy.lang</Package>
+                <Package>java.lang</Package>
+                <Package>java.lang.ref</Package>
+                <Package>org.codehaus.groovy.reflection</Package>
+                <Package>org.codehaus.groovy.runtime</Package>
+                <Package>org.codehaus.groovy.runtime.callsite</Package>
+                <Package>org.codehaus.groovy.runtime.powerassert</Package>
+                <Package>org.codehaus.groovy.runtime.typehandling</Package>
+                <Package>org.openqa.selenium</Package>
+            </DependsUpon>
+
+            <UsedBy>
+            </UsedBy>
+        </Package>
+
+        <Package name="geb">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="geb.junit4">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="geb.transform.implicitassertions">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="groovy.lang">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.lang">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.lang.ref">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.codehaus.groovy.reflection">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.codehaus.groovy.runtime">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.codehaus.groovy.runtime.callsite">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.codehaus.groovy.runtime.powerassert">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.codehaus.groovy.runtime.typehandling">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.openqa.selenium">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+    </Packages>
+
+    <Cycles>
+    </Cycles>
+</JDepend>

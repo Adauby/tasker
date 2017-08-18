@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.6.1" timestamp="2017-08-11T18:10:21.841">
+<file name="/home/mason/workspace/TodoApp/model/src/main/java/com/arolitec/todo/model/TodoItem.java">
+<violation beginline="8" endline="8" begincolumn="16" endcolumn="27" rule="UncommentedEmptyConstructor" ruleset="Design" package="com.arolitec.todo.model" class="TodoItem" method="TodoItem" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#UncommentedEmptyConstructor" priority="3">
+Document empty constructor
+</violation>
+<violation beginline="43" endline="43" begincolumn="12" endcolumn="59" rule="ConfusingTernary" ruleset="Design" package="com.arolitec.todo.model" class="TodoItem" method="equals" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#ConfusingTernary" priority="3">
+Avoid if (x != y) ..; else ..;
+</violation>
+<violation beginline="44" endline="44" begincolumn="12" endcolumn="96" rule="ConfusingTernary" ruleset="Design" package="com.arolitec.todo.model" class="TodoItem" method="equals" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#ConfusingTernary" priority="3">
+Avoid if (x != y) ..; else ..;
+</violation>
+<violation beginline="44" endline="44" begincolumn="9" endcolumn="111" rule="SimplifyBooleanReturns" ruleset="Design" package="com.arolitec.todo.model" class="TodoItem" method="equals" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#SimplifyBooleanReturns" priority="3">
+Avoid unnecessary if..then..else statements when returning booleans
+</violation>
+<violation beginline="53" endline="53" begincolumn="22" endcolumn="50" rule="ConfusingTernary" ruleset="Design" package="com.arolitec.todo.model" class="TodoItem" method="hashCode" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#ConfusingTernary" priority="3">
+Avoid if (x != y) ..; else ..;
+</violation>
+<violation beginline="54" endline="54" begincolumn="33" endcolumn="80" rule="ConfusingTernary" ruleset="Design" package="com.arolitec.todo.model" class="TodoItem" method="hashCode" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#ConfusingTernary" priority="3">
+Avoid if (x != y) ..; else ..;
+</violation>
+</file>
+</pmd>

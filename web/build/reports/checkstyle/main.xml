@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.19">
+<file name="/home/mason/workspace/TodoApp/web/src/main/java/com/arolitec/todo/web/ActiveTaskHttpAction.java">
+<error line="0" severity="error" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="9" severity="warning" message="Wrong order for &apos;javax.servlet.http.HttpServletRequest&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="12" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="14" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="15" severity="error" message="Line is longer than 100 characters (found 118)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="/home/mason/workspace/TodoApp/web/src/main/java/com/arolitec/todo/web/CompleteTaskHttpAction.java">
+<error line="12" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="13" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="14" severity="error" message="Line is longer than 100 characters (found 118)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="/home/mason/workspace/TodoApp/web/src/main/java/com/arolitec/todo/web/DeleteTaskHttpAction.java">
+<error line="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="10" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="11" severity="error" message="Line is longer than 100 characters (found 118)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="15" column="19" severity="error" message="&apos;if&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="15" column="24" severity="error" message="&apos;!=&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="15" column="26" severity="error" message="&apos;!=&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="/home/mason/workspace/TodoApp/web/src/main/java/com/arolitec/todo/web/HttpAction.java">
+<error line="4" severity="warning" message="Wrong order for &apos;javax.servlet.http.HttpServletRequest&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="7" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="8" severity="error" message="Line is longer than 100 characters (found 134)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="8" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="8" column="88" severity="error" message="&apos;,&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+</file>
+<file name="/home/mason/workspace/TodoApp/web/src/main/java/com/arolitec/todo/web/HttpActionFactory.java">
+<error line="6" column="1" severity="error" message="Redundant import from the same package - com.arolitec.todo.web.InvalidTaskHttpAction." source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="8" severity="warning" message="Wrong order for &apos;javax.servlet.http.HttpServletRequest&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="11" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="12" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="26" column="24" severity="error" message="&apos;!=&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="/home/mason/workspace/TodoApp/web/src/main/java/com/arolitec/todo/web/InsertTaskHttpAction.java">
+<error line="6" severity="warning" message="Wrong order for &apos;javax.servlet.http.HttpServletRequest&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="11" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="12" severity="error" message="Line is longer than 100 characters (found 118)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="/home/mason/workspace/TodoApp/web/src/main/java/com/arolitec/todo/web/InvalidTaskHttpAction.java">
+<error line="4" severity="warning" message="Wrong order for &apos;javax.servlet.http.HttpServletRequest&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="7" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="8" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="12" severity="error" message="Line is longer than 100 characters (found 118)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="/home/mason/workspace/TodoApp/web/src/main/java/com/arolitec/todo/web/ListAllTasksHttpAction.java">
+<error line="8" severity="warning" message="Wrong order for &apos;javax.servlet.http.HttpServletRequest&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="14" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="16" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="17" severity="error" message="Line is longer than 100 characters (found 118)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="/home/mason/workspace/TodoApp/web/src/main/java/com/arolitec/todo/web/TodoServlet.java">
+<error line="6" column="1" severity="error" message="Redundant import from the same package - com.arolitec.todo.web.HttpAction." source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="9" severity="warning" message="Wrong order for &apos;javax.servlet.RequestDispatcher&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="14" severity="warning" message="Wrong order for &apos;javax.servlet.ServletException&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="19" severity="warning" message="Wrong order for &apos;javax.servlet.annotation.WebServlet&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="19" column="1" severity="error" message="Duplicate import to line 10 - javax.servlet.annotation.WebServlet." source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="21" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="21" column="57" severity="error" message="&apos;,&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="21" column="67" severity="error" message="&apos;,&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="22" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="30" severity="error" message="Line is longer than 100 characters (found 123)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="32" severity="error" message="Line is longer than 100 characters (found 105)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="38" column="10" severity="error" message="&apos;catch&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="/home/mason/workspace/TodoApp/web/src/main/java/com/arolitec/todo/web/ToggleTaskStatusHttpAction.java">
+<error line="6" severity="warning" message="Wrong order for &apos;javax.servlet.http.HttpServletRequest&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="8" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="9" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="10" severity="error" message="Line is longer than 100 characters (found 118)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="14" column="19" severity="error" message="&apos;if&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="14" column="24" severity="error" message="&apos;!=&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="14" column="26" severity="error" message="&apos;!=&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="/home/mason/workspace/TodoApp/web/src/main/java/com/arolitec/todo/web/UpdateTaskHttpAction.java">
+<error line="6" severity="warning" message="Wrong order for &apos;javax.servlet.http.HttpServletRequest&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="11" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="12" severity="error" message="Line is longer than 100 characters (found 118)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="16" column="19" severity="error" message="&apos;if&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="16" column="24" severity="error" message="&apos;!=&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="16" column="26" severity="error" message="&apos;!=&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+</checkstyle>

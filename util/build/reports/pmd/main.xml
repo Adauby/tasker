@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.6.1" timestamp="2017-08-11T18:10:51.631">
+<file name="/home/mason/workspace/TodoApp/util/src/main/java/com/arolitec/todo/util/BackCommand.java">
+<violation beginline="20" endline="21" begincolumn="63" endcolumn="5" rule="UncommentedEmptyMethodBody" ruleset="Design" package="com.arolitec.todo.util" class="BackCommand" method="addCommand" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#UncommentedEmptyMethodBody" priority="3">
+Document empty method body
+</violation>
+</file>
+<file name="/home/mason/workspace/TodoApp/util/src/main/java/com/arolitec/todo/util/CompleteTaskCommand.java">
+<violation beginline="37" endline="50" begincolumn="17" endcolumn="17" rule="ConfusingTernary" ruleset="Design" package="com.arolitec.todo.util" class="CompleteTaskCommand" method="updateDescription" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#ConfusingTernary" priority="3">
+Avoid if (x != y) ..; else ..;
+</violation>
+<violation beginline="39" endline="46" begincolumn="25" endcolumn="25" rule="ConfusingTernary" ruleset="Design" package="com.arolitec.todo.util" class="CompleteTaskCommand" method="updateDescription" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#ConfusingTernary" priority="3">
+Avoid if (x != y) ..; else ..;
+</violation>
+<violation beginline="53" endline="53" begincolumn="42" endcolumn="46" rule="AvoidReassigningParameters" ruleset="Design" package="com.arolitec.todo.util" class="CompleteTaskCommand" method="controlEntry" variable="value" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#AvoidReassigningParameters" priority="2">
+Avoid reassigning parameters such as 'value'
+</violation>
+<violation beginline="54" endline="54" begincolumn="25" endcolumn="41" rule="PositionLiteralsFirstInComparisons" ruleset="Design" package="com.arolitec.todo.util" class="CompleteTaskCommand" method="controlEntry" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#PositionLiteralsFirstInComparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="54" endline="54" begincolumn="49" endcolumn="65" rule="PositionLiteralsFirstInComparisons" ruleset="Design" package="com.arolitec.todo.util" class="CompleteTaskCommand" method="controlEntry" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#PositionLiteralsFirstInComparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="64" endline="64" begincolumn="16" endcolumn="36" rule="PositionLiteralsFirstInComparisons" ruleset="Design" package="com.arolitec.todo.util" class="CompleteTaskCommand" method="execute" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#PositionLiteralsFirstInComparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="65" endline="72" begincolumn="17" endcolumn="17" rule="ConfusingTernary" ruleset="Design" package="com.arolitec.todo.util" class="CompleteTaskCommand" method="execute" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#ConfusingTernary" priority="3">
+Avoid if (x != y) ..; else ..;
+</violation>
+</file>
+<file name="/home/mason/workspace/TodoApp/util/src/main/java/com/arolitec/todo/util/ExitCommand.java">
+<violation beginline="19" endline="20" begincolumn="63" endcolumn="5" rule="UncommentedEmptyMethodBody" ruleset="Design" package="com.arolitec.todo.util" class="ExitCommand" method="addCommand" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#UncommentedEmptyMethodBody" priority="3">
+Document empty method body
+</violation>
+<violation beginline="23" endline="25" begincolumn="49" endcolumn="5" rule="UncommentedEmptyMethodBody" ruleset="Design" package="com.arolitec.todo.util" class="ExitCommand" method="removeCommand" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#UncommentedEmptyMethodBody" priority="3">
+Document empty method body
+</violation>
+</file>
+<file name="/home/mason/workspace/TodoApp/util/src/main/java/com/arolitec/todo/util/InvalidCommand.java">
+<violation beginline="19" endline="20" begincolumn="71" endcolumn="13" rule="UncommentedEmptyMethodBody" ruleset="Design" package="com.arolitec.todo.util" class="InvalidCommand" method="addCommand" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#UncommentedEmptyMethodBody" priority="3">
+Document empty method body
+</violation>
+<violation beginline="23" endline="24" begincolumn="57" endcolumn="13" rule="UncommentedEmptyMethodBody" ruleset="Design" package="com.arolitec.todo.util" class="InvalidCommand" method="removeCommand" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#UncommentedEmptyMethodBody" priority="3">
+Document empty method body
+</violation>
+</file>
+<file name="/home/mason/workspace/TodoApp/util/src/main/java/com/arolitec/todo/util/ListAllTasksCommand.java">
+<violation beginline="33" endline="34" begincolumn="63" endcolumn="5" rule="UncommentedEmptyMethodBody" ruleset="Design" package="com.arolitec.todo.util" class="ListAllTasksCommand" method="addCommand" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#UncommentedEmptyMethodBody" priority="3">
+Document empty method body
+</violation>
+<violation beginline="37" endline="38" begincolumn="49" endcolumn="5" rule="UncommentedEmptyMethodBody" ruleset="Design" package="com.arolitec.todo.util" class="ListAllTasksCommand" method="removeCommand" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#UncommentedEmptyMethodBody" priority="3">
+Document empty method body
+</violation>
+</file>
+<file name="/home/mason/workspace/TodoApp/util/src/main/java/com/arolitec/todo/util/MenuCommand.java">
+<violation beginline="19" endline="19" begincolumn="16" endcolumn="56" rule="ConfusingTernary" ruleset="Design" package="com.arolitec.todo.util" class="MenuCommand" method="getCommandByCommandKey" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#ConfusingTernary" priority="3">
+Avoid if (x != y) ..; else ..;
+</violation>
+<violation beginline="38" endline="38" begincolumn="16" endcolumn="36" rule="PositionLiteralsFirstInComparisons" ruleset="Design" package="com.arolitec.todo.util" class="MenuCommand" method="execute" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#PositionLiteralsFirstInComparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+</file>
+<file name="/home/mason/workspace/TodoApp/util/src/main/java/com/arolitec/todo/util/NewCommand.java">
+<violation beginline="38" endline="38" begincolumn="16" endcolumn="36" rule="PositionLiteralsFirstInComparisons" ruleset="Design" package="com.arolitec.todo.util" class="NewCommand" method="execute" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#PositionLiteralsFirstInComparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+</file>
+<file name="/home/mason/workspace/TodoApp/util/src/main/java/com/arolitec/todo/util/RemoveCommand.java">
+<violation beginline="39" endline="51" begincolumn="17" endcolumn="17" rule="ConfusingTernary" ruleset="Design" package="com.arolitec.todo.util" class="RemoveCommand" method="removeTask" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#ConfusingTernary" priority="3">
+Avoid if (x != y) ..; else ..;
+</violation>
+<violation beginline="41" endline="47" begincolumn="25" endcolumn="25" rule="ConfusingTernary" ruleset="Design" package="com.arolitec.todo.util" class="RemoveCommand" method="removeTask" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#ConfusingTernary" priority="3">
+Avoid if (x != y) ..; else ..;
+</violation>
+<violation beginline="54" endline="54" begincolumn="42" endcolumn="46" rule="AvoidReassigningParameters" ruleset="Design" package="com.arolitec.todo.util" class="RemoveCommand" method="controlEntry" variable="value" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#AvoidReassigningParameters" priority="2">
+Avoid reassigning parameters such as 'value'
+</violation>
+<violation beginline="55" endline="55" begincolumn="25" endcolumn="41" rule="PositionLiteralsFirstInComparisons" ruleset="Design" package="com.arolitec.todo.util" class="RemoveCommand" method="controlEntry" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#PositionLiteralsFirstInComparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="55" endline="55" begincolumn="49" endcolumn="65" rule="PositionLiteralsFirstInComparisons" ruleset="Design" package="com.arolitec.todo.util" class="RemoveCommand" method="controlEntry" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#PositionLiteralsFirstInComparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="65" endline="65" begincolumn="16" endcolumn="36" rule="PositionLiteralsFirstInComparisons" ruleset="Design" package="com.arolitec.todo.util" class="RemoveCommand" method="execute" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#PositionLiteralsFirstInComparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="66" endline="73" begincolumn="17" endcolumn="17" rule="ConfusingTernary" ruleset="Design" package="com.arolitec.todo.util" class="RemoveCommand" method="execute" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#ConfusingTernary" priority="3">
+Avoid if (x != y) ..; else ..;
+</violation>
+</file>
+<file name="/home/mason/workspace/TodoApp/util/src/main/java/com/arolitec/todo/util/TaskUtilities.java">
+<violation beginline="8" endline="39" begincolumn="28" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="com.arolitec.todo.util" class="TaskUtilities" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#UseUtilityClass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+</file>
+<file name="/home/mason/workspace/TodoApp/util/src/main/java/com/arolitec/todo/util/UpdateCommand.java">
+<violation beginline="20" endline="20" begincolumn="24" endcolumn="64" rule="ConfusingTernary" ruleset="Design" package="com.arolitec.todo.util" class="UpdateCommand" method="getCommandByCommandKey" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#ConfusingTernary" priority="3">
+Avoid if (x != y) ..; else ..;
+</violation>
+<violation beginline="39" endline="39" begincolumn="24" endcolumn="44" rule="PositionLiteralsFirstInComparisons" ruleset="Design" package="com.arolitec.todo.util" class="UpdateCommand" method="execute" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#PositionLiteralsFirstInComparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+</file>
+<file name="/home/mason/workspace/TodoApp/util/src/main/java/com/arolitec/todo/util/UpdateDescriptionCommand.java">
+<violation beginline="38" endline="52" begincolumn="17" endcolumn="17" rule="ConfusingTernary" ruleset="Design" package="com.arolitec.todo.util" class="UpdateDescriptionCommand" method="updateDescription" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#ConfusingTernary" priority="3">
+Avoid if (x != y) ..; else ..;
+</violation>
+<violation beginline="40" endline="48" begincolumn="25" endcolumn="25" rule="ConfusingTernary" ruleset="Design" package="com.arolitec.todo.util" class="UpdateDescriptionCommand" method="updateDescription" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#ConfusingTernary" priority="3">
+Avoid if (x != y) ..; else ..;
+</violation>
+<violation beginline="55" endline="55" begincolumn="42" endcolumn="46" rule="AvoidReassigningParameters" ruleset="Design" package="com.arolitec.todo.util" class="UpdateDescriptionCommand" method="controlEntry" variable="value" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#AvoidReassigningParameters" priority="2">
+Avoid reassigning parameters such as 'value'
+</violation>
+<violation beginline="56" endline="56" begincolumn="25" endcolumn="41" rule="PositionLiteralsFirstInComparisons" ruleset="Design" package="com.arolitec.todo.util" class="UpdateDescriptionCommand" method="controlEntry" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#PositionLiteralsFirstInComparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="56" endline="56" begincolumn="49" endcolumn="65" rule="PositionLiteralsFirstInComparisons" ruleset="Design" package="com.arolitec.todo.util" class="UpdateDescriptionCommand" method="controlEntry" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#PositionLiteralsFirstInComparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="66" endline="66" begincolumn="16" endcolumn="36" rule="PositionLiteralsFirstInComparisons" ruleset="Design" package="com.arolitec.todo.util" class="UpdateDescriptionCommand" method="execute" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#PositionLiteralsFirstInComparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="67" endline="74" begincolumn="17" endcolumn="17" rule="ConfusingTernary" ruleset="Design" package="com.arolitec.todo.util" class="UpdateDescriptionCommand" method="execute" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#ConfusingTernary" priority="3">
+Avoid if (x != y) ..; else ..;
+</violation>
+</file>
+</pmd>

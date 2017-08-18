@@ -1,7 +1,4 @@
 apply from: 'setupDatabase.gradle'
-repositories {
-    mavenCentral()
-}
 
 dependencies {
     compile project(':model')
@@ -11,7 +8,7 @@ dependencies {
 
 
 
-test {
+test{
     exclude '**/*IntegTest.class'
     reports.html.destination = file("$reports.html.destination/unit")
     reports.junitXml.destination = file("$reports.junitXml.destination/unit")
@@ -29,7 +26,7 @@ sourceSets {
 task integrationTest(type: Test ) {
     description = 'Runs the integration tests.'
     group = 'verification'
-    testClassesDir = sourceSets.integrationTest.output.classesDir
+    testClassesDirs = sourceSets.integrationTest.output.classesDirs
     classpath = sourceSets.integrationTest.runtimeClasspath
     reports.html.destination = file("$reports.html.destination/integration")
     reports.junitXml.destination = file("$reports.junitXml.destination/integration")
@@ -43,5 +40,12 @@ tasks.withType(Test) {
         exceptionFormat 'full'
     }
 }
+
+
+jacocoTestReport{
+    executionData(test,integrationTest)
+}
+
+
 
 check.dependsOn integrationTest

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.arolitec.todo.repository.H2TaskRepositoryIntegTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-07-14T17:14:16" hostname="aroli-dev-sp-pc" time="0.446">
+<testsuite name="com.arolitec.todo.repository.H2TaskRepositoryIntegTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-08-11T18:10:40" hostname="aroli-dev-sp-pc" time="0.685">
   <properties/>
-  <testcase name="testInsertToDoItem" classname="com.arolitec.todo.repository.H2TaskRepositoryIntegTest" time="0.148"/>
+  <testcase name="testInsertToDoItem" classname="com.arolitec.todo.repository.H2TaskRepositoryIntegTest" time="0.246"/>
   <testcase name="testFindAllCompleted" classname="com.arolitec.todo.repository.H2TaskRepositoryIntegTest" time="0.058"/>
-  <testcase name="testFindAll" classname="com.arolitec.todo.repository.H2TaskRepositoryIntegTest" time="0.086"/>
-  <testcase name="testDeleteToDoItem" classname="com.arolitec.todo.repository.H2TaskRepositoryIntegTest" time="0.052"/>
-  <testcase name="testFindAllActive" classname="com.arolitec.todo.repository.H2TaskRepositoryIntegTest" time="0.047"/>
-  <testcase name="testUpdateToDoItem" classname="com.arolitec.todo.repository.H2TaskRepositoryIntegTest" time="0.053"/>
+  <testcase name="testFindAll" classname="com.arolitec.todo.repository.H2TaskRepositoryIntegTest" time="0.118"/>
+  <testcase name="testDeleteToDoItem" classname="com.arolitec.todo.repository.H2TaskRepositoryIntegTest" time="0.088"/>
+  <testcase name="testFindAllActive" classname="com.arolitec.todo.repository.H2TaskRepositoryIntegTest" time="0.098"/>
+  <testcase name="testUpdateToDoItem" classname="com.arolitec.todo.repository.H2TaskRepositoryIntegTest" time="0.075"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

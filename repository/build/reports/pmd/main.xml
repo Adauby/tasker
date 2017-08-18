@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.6.1" timestamp="2017-08-11T18:10:44.426">
+<file name="/home/mason/workspace/TodoApp/repository/src/main/java/com/arolitec/todo/repository/H2TaskRepository.java">
+<violation beginline="18" endline="18" begincolumn="20" endcolumn="23" rule="CloseResource" ruleset="Design" package="com.arolitec.todo.repository" class="H2TaskRepository" method="findById" variable="conn" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#CloseResource" priority="3">
+Ensure that resources like this Connection object are closed after use
+</violation>
+<violation beginline="20" endline="20" begincolumn="19" endcolumn="20" rule="CloseResource" ruleset="Design" package="com.arolitec.todo.repository" class="H2TaskRepository" method="findById" variable="rs" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#CloseResource" priority="3">
+Ensure that resources like this ResultSet object are closed after use
+</violation>
+<violation beginline="51" endline="51" begincolumn="20" endcolumn="23" rule="CloseResource" ruleset="Design" package="com.arolitec.todo.repository" class="H2TaskRepository" method="findAll" variable="conn" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#CloseResource" priority="3">
+Ensure that resources like this Connection object are closed after use
+</violation>
+<violation beginline="53" endline="53" begincolumn="19" endcolumn="20" rule="CloseResource" ruleset="Design" package="com.arolitec.todo.repository" class="H2TaskRepository" method="findAll" variable="rs" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#CloseResource" priority="3">
+Ensure that resources like this ResultSet object are closed after use
+</violation>
+<violation beginline="83" endline="83" begincolumn="20" endcolumn="23" rule="CloseResource" ruleset="Design" package="com.arolitec.todo.repository" class="H2TaskRepository" method="findAllCompleted" variable="conn" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#CloseResource" priority="3">
+Ensure that resources like this Connection object are closed after use
+</violation>
+<violation beginline="85" endline="85" begincolumn="19" endcolumn="20" rule="CloseResource" ruleset="Design" package="com.arolitec.todo.repository" class="H2TaskRepository" method="findAllCompleted" variable="rs" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#CloseResource" priority="3">
+Ensure that resources like this ResultSet object are closed after use
+</violation>
+<violation beginline="115" endline="115" begincolumn="20" endcolumn="23" rule="CloseResource" ruleset="Design" package="com.arolitec.todo.repository" class="H2TaskRepository" method="findAllActive" variable="conn" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#CloseResource" priority="3">
+Ensure that resources like this Connection object are closed after use
+</violation>
+<violation beginline="117" endline="117" begincolumn="19" endcolumn="20" rule="CloseResource" ruleset="Design" package="com.arolitec.todo.repository" class="H2TaskRepository" method="findAllActive" variable="rs" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#CloseResource" priority="3">
+Ensure that resources like this ResultSet object are closed after use
+</violation>
+<violation beginline="146" endline="146" begincolumn="29" endcolumn="32" rule="CloseResource" ruleset="Design" package="com.arolitec.todo.repository" class="H2TaskRepository" method="insert" variable="conn" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#CloseResource" priority="3">
+Ensure that resources like this Connection object are closed after use
+</violation>
+<violation beginline="148" endline="148" begincolumn="24" endcolumn="25" rule="CloseResource" ruleset="Design" package="com.arolitec.todo.repository" class="H2TaskRepository" method="insert" variable="rs" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#CloseResource" priority="3">
+Ensure that resources like this ResultSet object are closed after use
+</violation>
+<violation beginline="178" endline="178" begincolumn="28" endcolumn="31" rule="CloseResource" ruleset="Design" package="com.arolitec.todo.repository" class="H2TaskRepository" method="update" variable="conn" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#CloseResource" priority="3">
+Ensure that resources like this Connection object are closed after use
+</violation>
+<violation beginline="180" endline="180" begincolumn="24" endcolumn="25" rule="CloseResource" ruleset="Design" package="com.arolitec.todo.repository" class="H2TaskRepository" method="update" variable="rs" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#CloseResource" priority="3">
+Ensure that resources like this ResultSet object are closed after use
+</violation>
+<violation beginline="202" endline="202" begincolumn="28" endcolumn="31" rule="CloseResource" ruleset="Design" package="com.arolitec.todo.repository" class="H2TaskRepository" method="delete" variable="conn" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#CloseResource" priority="3">
+Ensure that resources like this Connection object are closed after use
+</violation>
+<violation beginline="204" endline="204" begincolumn="23" endcolumn="24" rule="CloseResource" ruleset="Design" package="com.arolitec.todo.repository" class="H2TaskRepository" method="delete" variable="rs" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#CloseResource" priority="3">
+Ensure that resources like this ResultSet object are closed after use
+</violation>
+<violation beginline="223" endline="223" begincolumn="28" endcolumn="31" rule="CloseResource" ruleset="Design" package="com.arolitec.todo.repository" class="H2TaskRepository" method="deleteAll" variable="conn" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#CloseResource" priority="3">
+Ensure that resources like this Connection object are closed after use
+</violation>
+<violation beginline="225" endline="225" begincolumn="23" endcolumn="24" rule="CloseResource" ruleset="Design" package="com.arolitec.todo.repository" class="H2TaskRepository" method="deleteAll" variable="rs" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#CloseResource" priority="3">
+Ensure that resources like this ResultSet object are closed after use
+</violation>
+</file>
+<file name="/home/mason/workspace/TodoApp/repository/src/main/java/com/arolitec/todo/repository/InMemoryTodoRepository.java">
+<violation beginline="14" endline="14" begincolumn="28" endcolumn="36" rule="ImmutableField" ruleset="Design" package="com.arolitec.todo.repository" class="InMemoryTodoRepository" variable="currentID" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'currentID' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="15" endline="15" begincolumn="46" endcolumn="50" rule="ImmutableField" ruleset="Design" package="com.arolitec.todo.repository" class="InMemoryTodoRepository" variable="todos" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'todos' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+</file>
+</pmd>

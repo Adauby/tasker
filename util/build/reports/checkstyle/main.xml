@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.19">
+<file name="/home/mason/workspace/TodoApp/util/src/main/java/com/arolitec/todo/util/BackCommand.java">
+<error line="0" severity="error" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="5" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="25" severity="error" message="All TODOs should be named.  e.g. &quot;TODO(johndoe): Refactor when v2 is released.&quot;" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/home/mason/workspace/TodoApp/util/src/main/java/com/arolitec/todo/util/Command.java">
+<error line="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="4" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="/home/mason/workspace/TodoApp/util/src/main/java/com/arolitec/todo/util/CompleteTaskCommand.java">
+<error line="8" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="9" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="21" column="10" severity="error" message="&apos;catch&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="21" column="15" severity="error" message="&apos;catch&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="37" column="19" severity="error" message="&apos;if&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="37" column="26" severity="error" message="&apos;!=&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="37" column="28" severity="error" message="&apos;!=&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="39" column="27" severity="error" message="&apos;if&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="39" column="37" severity="error" message="&apos;!=&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="44" column="26" severity="error" message="&apos;else&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="44" column="30" severity="error" message="&apos;else&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="48" column="18" severity="error" message="&apos;else&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="48" column="22" severity="error" message="&apos;else&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="54" column="22" severity="error" message="&apos;while&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="64" column="14" severity="error" message="&apos;while&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="65" column="19" severity="error" message="&apos;if&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="69" column="18" severity="error" message="&apos;else&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="69" column="22" severity="error" message="&apos;else&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="71" column="36" severity="error" message="&apos;=&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="81" severity="error" message="All TODOs should be named.  e.g. &quot;TODO(johndoe): Refactor when v2 is released.&quot;" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="87" severity="error" message="All TODOs should be named.  e.g. &quot;TODO(johndoe): Refactor when v2 is released.&quot;" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/home/mason/workspace/TodoApp/util/src/main/java/com/arolitec/todo/util/ExitCommand.java">
+<error line="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="4" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="/home/mason/workspace/TodoApp/util/src/main/java/com/arolitec/todo/util/InvalidCommand.java">
+<error line="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="4" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="/home/mason/workspace/TodoApp/util/src/main/java/com/arolitec/todo/util/ListAllTasksCommand.java">
+<error line="8" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="9" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="27" column="37" severity="warning" message="&apos;)&apos; is preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+</file>
+<file name="/home/mason/workspace/TodoApp/util/src/main/java/com/arolitec/todo/util/MenuCommand.java">
+<error line="7" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="8" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="13" column="29" severity="error" message="&apos;,&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="14" column="29" severity="error" message="&apos;,&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="19" column="20" severity="error" message="&apos;!=&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="24" column="82" severity="warning" message="&apos;)&apos; is preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="25" column="59" severity="error" message="&apos;+&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="38" column="14" severity="error" message="&apos;while&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="/home/mason/workspace/TodoApp/util/src/main/java/com/arolitec/todo/util/NewCommand.java">
+<error line="8" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="9" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="14" severity="error" message="All TODOs should be named.  e.g. &quot;TODO(johndoe): Refactor when v2 is released.&quot;" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="38" column="14" severity="error" message="&apos;while&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="49" severity="error" message="All TODOs should be named.  e.g. &quot;TODO(johndoe): Refactor when v2 is released.&quot;" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="55" severity="error" message="All TODOs should be named.  e.g. &quot;TODO(johndoe): Refactor when v2 is released.&quot;" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/home/mason/workspace/TodoApp/util/src/main/java/com/arolitec/todo/util/RemoveCommand.java">
+<error line="8" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="9" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="29" column="10" severity="error" message="&apos;catch&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="29" column="15" severity="error" message="&apos;catch&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="39" column="19" severity="error" message="&apos;if&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="39" column="26" severity="error" message="&apos;!=&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="39" column="28" severity="error" message="&apos;!=&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="41" column="27" severity="error" message="&apos;if&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="41" column="37" severity="error" message="&apos;!=&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="45" column="26" severity="error" message="&apos;else&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="45" column="30" severity="error" message="&apos;else&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="49" column="18" severity="error" message="&apos;else&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="49" column="22" severity="error" message="&apos;else&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="55" column="22" severity="error" message="&apos;while&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="65" column="14" severity="error" message="&apos;while&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="66" column="19" severity="error" message="&apos;if&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="70" column="18" severity="error" message="&apos;else&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="70" column="22" severity="error" message="&apos;else&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="72" column="36" severity="error" message="&apos;=&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="81" severity="error" message="All TODOs should be named.  e.g. &quot;TODO(johndoe): Refactor when v2 is released.&quot;" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="87" severity="error" message="All TODOs should be named.  e.g. &quot;TODO(johndoe): Refactor when v2 is released.&quot;" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/home/mason/workspace/TodoApp/util/src/main/java/com/arolitec/todo/util/TaskStatistics.java">
+<error line="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="4" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="/home/mason/workspace/TodoApp/util/src/main/java/com/arolitec/todo/util/TaskUtilities.java">
+<error line="8" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="9" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="24" column="64" severity="warning" message="Name &apos;TodoItems&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="27" column="12" severity="error" message="&apos;for&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="27" column="22" severity="warning" message="Name &apos;TodoItem&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="28" column="15" severity="error" message="&apos;if&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="30" column="13" severity="warning" message="&apos;}&apos; at column 13 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else or try/catch/finally)." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+</file>
+<file name="/home/mason/workspace/TodoApp/util/src/main/java/com/arolitec/todo/util/UpdateCommand.java">
+<error line="7" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="8" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="13" column="29" severity="error" message="&apos;,&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="14" column="29" severity="error" message="&apos;,&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="20" column="28" severity="error" message="&apos;!=&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="25" column="90" severity="warning" message="&apos;)&apos; is preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="26" column="67" severity="error" message="&apos;+&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="39" column="22" severity="error" message="&apos;while&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="/home/mason/workspace/TodoApp/util/src/main/java/com/arolitec/todo/util/UpdateDescriptionCommand.java">
+<error line="8" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="9" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="22" column="10" severity="error" message="&apos;catch&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="22" column="15" severity="error" message="&apos;catch&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="38" column="19" severity="error" message="&apos;if&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="38" column="26" severity="error" message="&apos;!=&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="38" column="28" severity="error" message="&apos;!=&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="40" column="27" severity="error" message="&apos;if&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="40" column="37" severity="error" message="&apos;!=&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="46" column="26" severity="error" message="&apos;else&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="46" column="30" severity="error" message="&apos;else&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="50" column="18" severity="error" message="&apos;else&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="50" column="22" severity="error" message="&apos;else&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="56" column="22" severity="error" message="&apos;while&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="66" column="14" severity="error" message="&apos;while&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="67" column="19" severity="error" message="&apos;if&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="71" column="18" severity="error" message="&apos;else&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="71" column="22" severity="error" message="&apos;else&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="73" column="36" severity="error" message="&apos;=&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="83" severity="error" message="All TODOs should be named.  e.g. &quot;TODO(johndoe): Refactor when v2 is released.&quot;" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="89" severity="error" message="All TODOs should be named.  e.g. &quot;TODO(johndoe): Refactor when v2 is released.&quot;" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+</checkstyle>

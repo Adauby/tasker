@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<JDepend>
+    <Packages>
+
+        <Package name="com.arolitec.todo.model">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="com.arolitec.todo.repository">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="com.arolitec.todo.util">
+            <Stats>
+                <TotalClasses>13</TotalClasses>
+                <ConcreteClasses>12</ConcreteClasses>
+                <AbstractClasses>1</AbstractClasses>
+                <Ca>0</Ca>
+                <Ce>5</Ce>
+                <A>0.08</A>
+                <I>1</I>
+                <D>0.08</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+                <Class sourceFile="Command.java">
+                    com.arolitec.todo.util.Command
+                </Class>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="BackCommand.java">
+                    com.arolitec.todo.util.BackCommand
+                </Class>
+                <Class sourceFile="CompleteTaskCommand.java">
+                    com.arolitec.todo.util.CompleteTaskCommand
+                </Class>
+                <Class sourceFile="ExitCommand.java">
+                    com.arolitec.todo.util.ExitCommand
+                </Class>
+                <Class sourceFile="InvalidCommand.java">
+                    com.arolitec.todo.util.InvalidCommand
+                </Class>
+                <Class sourceFile="ListAllTasksCommand.java">
+                    com.arolitec.todo.util.ListAllTasksCommand
+                </Class>
+                <Class sourceFile="MenuCommand.java">
+                    com.arolitec.todo.util.MenuCommand
+                </Class>
+                <Class sourceFile="NewCommand.java">
+                    com.arolitec.todo.util.NewCommand
+                </Class>
+                <Class sourceFile="RemoveCommand.java">
+                    com.arolitec.todo.util.RemoveCommand
+                </Class>
+                <Class sourceFile="TaskStatistics.java">
+                    com.arolitec.todo.util.TaskStatistics
+                </Class>
+                <Class sourceFile="TaskUtilities.java">
+                    com.arolitec.todo.util.TaskUtilities
+                </Class>
+                <Class sourceFile="UpdateCommand.java">
+                    com.arolitec.todo.util.UpdateCommand
+                </Class>
+                <Class sourceFile="UpdateDescriptionCommand.java">
+                    com.arolitec.todo.util.UpdateDescriptionCommand
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>com.arolitec.todo.model</Package>
+                <Package>com.arolitec.todo.repository</Package>
+                <Package>java.io</Package>
+                <Package>java.lang</Package>
+                <Package>java.util</Package>
+            </DependsUpon>
+
+            <UsedBy>
+            </UsedBy>
+        </Package>
+
+        <Package name="java.io">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.lang">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.util">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+    </Packages>
+
+    <Cycles>
+    </Cycles>
+</JDepend>

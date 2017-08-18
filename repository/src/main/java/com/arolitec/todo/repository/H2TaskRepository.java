@@ -248,7 +248,9 @@ public class H2TaskRepository implements TodoRepository{
 	            try {
 	                connection.close();
 	            }
-	            catch(SQLException e) {}
+	            catch(SQLException e) {
+	            	e.printStackTrace();
+	            }
 	        }
 	    }
 
@@ -257,7 +259,9 @@ public class H2TaskRepository implements TodoRepository{
 	            try {
 	                statement.close();
 	            }
-	            catch(SQLException e) {}
+	            catch(SQLException e) {
+	            	e.printStackTrace();
+	            }
 	        }
 	    }
 
@@ -266,7 +270,9 @@ public class H2TaskRepository implements TodoRepository{
 	            try {
 	                resultSet.close();
 	            }
-	            catch(SQLException e) {}
+	            catch(SQLException e) {
+	            	e.printStackTrace();
+	            }
 	        }
 	    }
 
