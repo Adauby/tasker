@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<JDepend>
+    <Packages>
+
+        <Package name="com.arolitec.todo.model">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="com.arolitec.todo.repository">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="com.arolitec.todo.util">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="com.arolitec.todo.web">
+            <Stats>
+                <TotalClasses>11</TotalClasses>
+                <ConcreteClasses>10</ConcreteClasses>
+                <AbstractClasses>1</AbstractClasses>
+                <Ca>0</Ca>
+                <Ce>8</Ce>
+                <A>0.09</A>
+                <I>1</I>
+                <D>0.09</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+                <Class sourceFile="HttpAction.java">
+                    com.arolitec.todo.web.HttpAction
+                </Class>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="ActiveTaskHttpAction.java">
+                    com.arolitec.todo.web.ActiveTaskHttpAction
+                </Class>
+                <Class sourceFile="CompleteTaskHttpAction.java">
+                    com.arolitec.todo.web.CompleteTaskHttpAction
+                </Class>
+                <Class sourceFile="DeleteTaskHttpAction.java">
+                    com.arolitec.todo.web.DeleteTaskHttpAction
+                </Class>
+                <Class sourceFile="HttpActionFactory.java">
+                    com.arolitec.todo.web.HttpActionFactory
+                </Class>
+                <Class sourceFile="InsertTaskHttpAction.java">
+                    com.arolitec.todo.web.InsertTaskHttpAction
+                </Class>
+                <Class sourceFile="InvalidTaskHttpAction.java">
+                    com.arolitec.todo.web.InvalidTaskHttpAction
+                </Class>
+                <Class sourceFile="ListAllTasksHttpAction.java">
+                    com.arolitec.todo.web.ListAllTasksHttpAction
+                </Class>
+                <Class sourceFile="TodoServlet.java">
+                    com.arolitec.todo.web.TodoServlet
+                </Class>
+                <Class sourceFile="ToggleTaskStatusHttpAction.java">
+                    com.arolitec.todo.web.ToggleTaskStatusHttpAction
+                </Class>
+                <Class sourceFile="UpdateTaskHttpAction.java">
+                    com.arolitec.todo.web.UpdateTaskHttpAction
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>com.arolitec.todo.model</Package>
+                <Package>com.arolitec.todo.repository</Package>
+                <Package>com.arolitec.todo.util</Package>
+                <Package>java.io</Package>
+                <Package>java.lang</Package>
+                <Package>java.util</Package>
+                <Package>javax.servlet</Package>
+                <Package>javax.servlet.http</Package>
+            </DependsUpon>
+
+            <UsedBy>
+            </UsedBy>
+        </Package>
+
+        <Package name="java.io">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.lang">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.util">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="javax.servlet">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="javax.servlet.http">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+    </Packages>
+
+    <Cycles>
+    </Cycles>
+</JDepend>

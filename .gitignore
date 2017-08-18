@@ -6,3 +6,4 @@ build/*
 *.class
 .gradle
 /bin/
+*.jar

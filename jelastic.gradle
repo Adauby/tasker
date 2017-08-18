@@ -1,0 +1,60 @@
+import com.jelastic.api.users.Authentication
+import com.jelastic.api.users.response.AuthenticationResponse
+import com.jelastic.api.environment.Control
+import com.jelastic.api.environment.response.EnvironmentInfoResponses
+import com.jelastic.api.environment.response.NodeSSHResponses
+
+buildscript{
+    repositories {
+        mavenCentral()
+    }
+    dependencies{
+        classpath 'com.jelastic:jelastic-public-j2se:5.1'
+    }
+}
+ext{
+        platformId='1dd8d191d38fff45e62564fcf67fdcd6'
+        hosterUrl='https://app.jelastic.lunacloud.com/'
+        apiVersion='1.0'
+}
+
+if(project.hasProperty('jelasticEmail')){
+    ext.apiEmail = project.property('jelasticEmail')
+}
+if(project.hasProperty('jelasticPasswd')){
+    ext.apiPassword = project.property('jelasticPasswd')
+}
+
+task jelasticEnvInfo(){
+    description = 'display jelastic environment info'
+    group = 'Jelastic'
+    inputs.property('apiEmail',apiEmail)
+    inputs.property('apiPassword',apiPassword)
+    inputs.property('platformId', platformId)
+    doLast{
+        Authentication authenticationService = new Authentication()
+        authenticationService.setServerUrl(hosterUrl + apiVersion + "/")
+        Control environmentService = new Control(platformId)
+        environmentService.setServerUrl(hosterUrl + apiVersion + "/")
+        AuthenticationResponse authenticationResponse
+        EnvironmentInfoResponses environmentInfoResponses
+        try{
+            logger.quiet("user authentication...")
+            authenticationResponse = authenticationService.signin(apiEmail,apiPassword)
+            if(authenticationResponse.isOK()){
+                logger.quiet("Getting environment info...")
+                final String session = authenticationResponse.getSession()
+                environmentInfoResponses = environmentService.getEnvs(platformId,session)
+                authenticationService.signout(platformId,session)
+                logger.quiet "  User info...................."
+                logger.quiet "  User Uid:                   $authenticationResponse.uid"
+                logger.quiet "  User Email:                 $authenticationResponse.email"
+                logger.quiet "  Cloud env info..............."
+                logger.quiet "  Cluster Os Type:            $environmentInfoResponses"
+                
+            }
+        }catch(Exception e){
+            throw new GradleException(e.message)
+        }
+    }
+}
