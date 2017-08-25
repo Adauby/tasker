@@ -102,7 +102,7 @@
 <tr>
 <td>
 <h2>Metrics</h2>
-<p>104 lines of code analysed,
+<p>105 lines of code analysed,
 	in 11 classes,
 	in 1 packages.</p>
 <table cellpadding="5" cellspacing="2" style="width:90%;border-collapse: collapse;border-style:solid;border-width:thin;">
@@ -118,18 +118,18 @@
 </tr>
 <tr class="medium">
 <td>Medium Priority Warnings</td>
-<td align="right">3</td>
-<td align="right">28.85</td>
+<td align="right"/>
+<td align="right">NaN</td>
 </tr>
 <tr bgcolor="#f0f0f0">
 <td>
 <b>Total Warnings</b>
 </td>
 <td align="right">
-<b>3</b>
+<b>0</b>
 </td>
 <td align="right">
-<b>28.85</b>
+<b>0.00</b>
 </td>
 </tr>
 </table>
@@ -150,16 +150,10 @@
 </tr>
 <tr class="tablerow0">
 <td>
-<a href="#Warnings_BAD_PRACTICE">Bad practice Warnings</a>
-</td>
-<td align="right">3</td>
-</tr>
-<tr class="tablerow1">
-<td>
 <b>Total</b>
 </td>
 <td align="right">
-<b>3</b>
+<b>0</b>
 </td>
 </tr>
 </table>
@@ -173,73 +167,6 @@
 <h1>Warnings</h1>
 <p>Click on each warning link to see a full description of the issue, and
 	    details of how to resolve it.</p>
-<h2>
-<a name="Warnings_BAD_PRACTICE">Bad practice Warnings</a>
-</h2>
-<table class="warningtable" cellspacing="2" cellpadding="5" style="width:100%;border-collapse: collapse;border-style:solid;border-width:thin;">
-<tr class="tableheader">
-<th align="left">Warning</th>
-<th align="center">Priority</th>
-<th align="left">Details</th>
-</tr>
-<tr class="medium">
-<td width="20%" valign="top">
-<a href="#SE_BAD_FIELD">Non-transient non-serializable instance field in serializable class</a>
-</td>
-<td width="10%" valign="top" align="center">Medium</td>
-<td width="70%">
-<dl>
-<dt class="long_message">Class com.arolitec.todo.web.TodoServlet defines non-transient non-serializable instance field factory</dt>
-<dd>
-						In file <tt>
-<strong>TodoServlet.java</strong>
-</tt>,
-						
-							lines 
-							    to <br/>In class com.arolitec.todo.web.TodoServlet<br/>Field com.arolitec.todo.web.TodoServlet.factory<br/>Actual type com.arolitec.todo.web.HttpActionFactory<br/>In TodoServlet.java</dd>
-</dl>
-</td>
-</tr>
-<tr class="medium">
-<td width="20%" valign="top">
-<a href="#SE_BAD_FIELD">Non-transient non-serializable instance field in serializable class</a>
-</td>
-<td width="10%" valign="top" align="center">Medium</td>
-<td width="70%">
-<dl>
-<dt class="long_message">Class com.arolitec.todo.web.TodoServlet defines non-transient non-serializable instance field todoRepository</dt>
-<dd>
-						In file <tt>
-<strong>TodoServlet.java</strong>
-</tt>,
-						
-							lines 
-							    to <br/>In class com.arolitec.todo.web.TodoServlet<br/>Field com.arolitec.todo.web.TodoServlet.todoRepository<br/>Actual type com.arolitec.todo.repository.InMemoryTodoRepository<br/>In TodoServlet.java</dd>
-</dl>
-</td>
-</tr>
-<tr class="medium">
-<td width="20%" valign="top">
-<a href="#SE_BAD_FIELD_STORE">Non-serializable value stored into instance field of a serializable class</a>
-</td>
-<td width="10%" valign="top" align="center">Medium</td>
-<td width="70%">
-<dl>
-<dt class="long_message">com.arolitec.todo.repository.InMemoryTodoRepository stored into non-transient field TodoServlet.todoRepository</dt>
-<dd>
-						In file <tt>
-<strong>TodoServlet.java</strong>
-</tt>,
-						
-							line 25<br/>In class com.arolitec.todo.web.TodoServlet<br/>Field com.arolitec.todo.web.TodoServlet.todoRepository<br/>Actual type com.arolitec.todo.repository.InMemoryTodoRepository<br/>At TodoServlet.java:[line 25]</dd>
-</dl>
-</td>
-</tr>
-</table>
-<p>
-<br/>
-<br/>
-</p>
 <p>
 <br/>
 <br/>
@@ -247,33 +174,5 @@
 <h1>
 <a name="Details">Warning Types</a>
 </h1>
-<h2>
-<a name="SE_BAD_FIELD_STORE">Non-serializable value stored into instance field of a serializable class</a>
-</h2>
-
-<p> A non-serializable value is stored into a non-transient field
-of a serializable class.</p>
-
-    
-<p>
-<br/>
-<br/>
-</p>
-<h2>
-<a name="SE_BAD_FIELD">Non-transient non-serializable instance field in serializable class</a>
-</h2>
-
-<p> This Serializable class defines a non-primitive instance field which is neither transient,
-Serializable, or <code>java.lang.Object</code>, and does not appear to implement
-the <code>Externalizable</code> interface or the
-<code>readObject()</code> and <code>writeObject()</code> methods.&nbsp;
-Objects of this class will not be deserialized correctly if a non-Serializable
-object is stored in this field.</p>
-
-    
-<p>
-<br/>
-<br/>
-</p>
 </body>
 </html>

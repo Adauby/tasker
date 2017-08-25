@@ -29,7 +29,7 @@ task jelasticEnvInfo(){
     description = 'display jelastic environment info'
     group = 'Jelastic'
     inputs.property('apiEmail',apiEmail)
-    inputs.property('apiPassword',apiPassword)
+    //inputs.property('apiPassword',apiPassword)
     inputs.property('platformId', platformId)
     doLast{
         Authentication authenticationService = new Authentication()
